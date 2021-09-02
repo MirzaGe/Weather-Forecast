@@ -13,6 +13,7 @@
 		44A7556426E11AD300918E5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44A7556326E11AD300918E5E /* Assets.xcassets */; };
 		44A7556726E11AD300918E5E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44A7556626E11AD300918E5E /* Preview Assets.xcassets */; };
 		44A7556A26E11AD300918E5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44A7556826E11AD300918E5E /* LaunchScreen.storyboard */; };
+		44A7557826E11E6700918E5E /* BackSplash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A7557726E11E6700918E5E /* BackSplash.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		44A7556626E11AD300918E5E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		44A7556926E11AD300918E5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44A7556B26E11AD300918E5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44A7557726E11E6700918E5E /* BackSplash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackSplash.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,11 @@
 		44A7555C26E11AD000918E5E /* Weather Forecast */ = {
 			isa = PBXGroup;
 			children = (
+				44A7557626E11D3500918E5E /* Data */,
+				44A7557526E11D2D00918E5E /* Views */,
+				44A7557426E11D2300918E5E /* Helpers */,
+				44A7557326E11CE700918E5E /* Services  */,
+				44A7557226E11CD800918E5E /* View Model */,
 				44A7555D26E11AD000918E5E /* AppDelegate.swift */,
 				44A7555F26E11AD000918E5E /* SceneDelegate.swift */,
 				44A7556126E11AD000918E5E /* ContentView.swift */,
@@ -73,6 +80,42 @@
 				44A7556626E11AD300918E5E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		44A7557226E11CD800918E5E /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		44A7557326E11CE700918E5E /* Services  */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Services ";
+			sourceTree = "<group>";
+		};
+		44A7557426E11D2300918E5E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		44A7557526E11D2D00918E5E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				44A7557726E11E6700918E5E /* BackSplash.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		44A7557626E11D3500918E5E /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +191,7 @@
 				44A7555E26E11AD000918E5E /* AppDelegate.swift in Sources */,
 				44A7556026E11AD000918E5E /* SceneDelegate.swift in Sources */,
 				44A7556226E11AD000918E5E /* ContentView.swift in Sources */,
+				44A7557826E11E6700918E5E /* BackSplash.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
