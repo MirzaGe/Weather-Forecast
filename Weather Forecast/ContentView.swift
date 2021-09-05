@@ -8,7 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
-    
+  
+    @State var showView: Bool = false
   @ObservedObject  var forecastViewModel: ForecastViewModel
     init() {
         self.forecastViewModel = ForecastViewModel()
@@ -17,14 +18,13 @@ struct ContentView: View {
         ZStack {
             BackSplash()
             
-            TextField("Enter City Name",text:self.$forecastViewModel.cityName, onCommit: {
-                self.forecastViewModel.searchCity()
-            })
+            
             VStack {
-                Text("City \(self.forecastViewModel.cityName)")
-                
-                Text("Country \(self.forecastViewModel.currentCountry)")
+                TopView(showField: self.showView, forecastViewModel: self.forecastViewModel)
             }
+        
+               
+            
         }
     }
 }
