@@ -15,7 +15,7 @@ class Services {
          
          
          my weather api from openWeathermap.org*/
-        guard let url =  URL (string: "https://samples.openweathermap.org/data/2.5/forecast/daily?q=\(city)=&appid=\(appID)")
+        guard let url =  URL (string: "https://api.openweathermap.org/data/2.5/find?q=\(city)=&appid=\(appID)")
         else {
             completion(nil)
             return

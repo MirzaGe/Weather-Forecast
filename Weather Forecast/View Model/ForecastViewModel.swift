@@ -11,11 +11,30 @@ class ForecastViewModel: ObservableObject {
 //bcuz once this class is called is going to broadcast the msg to all the views that r using this model for updated data to use
     
     var weatherService: Services!
-    var cityName:String = "Boston"
+    var cityName:String = "Karachi"
     /*for getting info */ @Published var weatherForecast = ForecastWeatherResponse() //object we r instantiating
     init() {
         self.weatherService = Services()
     }
+    
+    var currentCity: String {
+        if let city = self.weatherForecast.city?.name  // has all the payload
+        {
+            return city
+        }else {
+            return ""
+        }
+    }
+    
+    var currentCountry: String {
+        if let country = self.weatherForecast.city?.country{
+            return country
+        }else {
+            return ""
+        }
+    }
+    
+    
     func searchCity() {
         if let city = self.cityName.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed)
         // for making string senticized

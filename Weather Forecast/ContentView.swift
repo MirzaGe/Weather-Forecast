@@ -20,7 +20,11 @@ struct ContentView: View {
             TextField("Enter City Name",text:self.$forecastViewModel.cityName, onCommit: {
                 self.forecastViewModel.searchCity()
             })
-            
+            VStack {
+                Text("City \(self.forecastViewModel.cityName)")
+                
+                Text("Country \(self.forecastViewModel.currentCountry)")
+            }
         }
     }
 }
