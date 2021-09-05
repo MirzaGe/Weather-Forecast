@@ -28,8 +28,17 @@ struct TopView: View {
             .background(Color("lightBlue"))
             .cornerRadius(30)
             .foregroundColor(.white)
-            .offset(x: self.showField ? 0 : (-UIWidth / 2 - 180))
+            .offset(x: self.showField ? 50 : (-UIWidth / 2 - 180))
             .animation(.spring())
+            Image(systemName: "magnifyingglass.circle.fill")
+                .resizable()
+                .frame(width:40, height:40)
+                .foregroundColor(.white)
+                .offset(x:self.showField ? (UIWidth - 90) : -30)
+                .animation(.spring())
+                .onTapGesture {
+                    self.showField.toggle()
+                }
 
         }
     }

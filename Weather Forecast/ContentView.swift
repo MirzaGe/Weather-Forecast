@@ -21,6 +21,8 @@ struct ContentView: View {
             
             VStack {
                 TopView(showField: self.showView, forecastViewModel: self.forecastViewModel)
+                
+                MidView(forecastViewModel: self.forecastViewModel)
             }
         
                

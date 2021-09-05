@@ -11,6 +11,7 @@
 		449A031026E4CB11000F9AE4 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449A030F26E4CB11000F9AE4 /* Service.swift */; };
 		449A031326E4D529000F9AE4 /* ForecastViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449A031226E4D529000F9AE4 /* ForecastViewModel.swift */; };
 		449A031726E51428000F9AE4 /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449A031626E51428000F9AE4 /* TopView.swift */; };
+		449A031A26E53B69000F9AE4 /* MidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449A031926E53B69000F9AE4 /* MidView.swift */; };
 		44A7555E26E11AD000918E5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A7555D26E11AD000918E5E /* AppDelegate.swift */; };
 		44A7556026E11AD000918E5E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A7555F26E11AD000918E5E /* SceneDelegate.swift */; };
 		44A7556226E11AD000918E5E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A7556126E11AD000918E5E /* ContentView.swift */; };
@@ -25,6 +26,7 @@
 		449A030F26E4CB11000F9AE4 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Service.swift; path = "Weather Forecast/Data/Service.swift"; sourceTree = SOURCE_ROOT; };
 		449A031226E4D529000F9AE4 /* ForecastViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastViewModel.swift; sourceTree = "<group>"; };
 		449A031626E51428000F9AE4 /* TopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
+		449A031926E53B69000F9AE4 /* MidView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MidView.swift; sourceTree = "<group>"; };
 		44A7555A26E11AD000918E5E /* Weather Forecast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Weather Forecast.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44A7555D26E11AD000918E5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44A7555F26E11AD000918E5E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 			children = (
 				449A031226E4D529000F9AE4 /* ForecastViewModel.swift */,
 				449A031626E51428000F9AE4 /* TopView.swift */,
+				449A031926E53B69000F9AE4 /* MidView.swift */,
 			);
 			path = "View Model";
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				449A031A26E53B69000F9AE4 /* MidView.swift in Sources */,
 				44A7555E26E11AD000918E5E /* AppDelegate.swift in Sources */,
 				44A7556026E11AD000918E5E /* SceneDelegate.swift in Sources */,
 				4456EEA826E22F9C0080920B /* MainForecast.swift in Sources */,
