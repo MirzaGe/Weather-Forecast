@@ -18,7 +18,7 @@ var ForecastWeatherResponse: Decodable {
 
 struct MainForecastParams: Decodable {
     var dt: Int?
-    var temp: Temp?// temp is feild & also hav some objs which contains other fields
+    var temp: Temp? // temp is feild & also hav some objs which contains other fields
     var pressure: Double?
     var humidity: Int?
     var weather: [Weather]?
