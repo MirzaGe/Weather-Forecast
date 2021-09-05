@@ -8,9 +8,19 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+  @ObservedObject  var forecastViewModel: ForecastViewModel
+    init() {
+        self.forecastViewModel = ForecastViewModel()
+    }
     var body: some View {
         ZStack {
             BackSplash()
+            
+            TextField("Enter City Name",text:self.$forecastViewModel.cityName, onCommit: {
+                self.forecastViewModel.searchCity()
+            })
+            
         }
     }
 }

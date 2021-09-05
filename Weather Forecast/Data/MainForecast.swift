@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-var ForecastWeatherResponse: Decodable {
+struct ForecastWeatherResponse: Decodable {
     var city: City? //we havent created so ? /* Bcuz it has its own properties & fields*/
     var cod: String?
     var message: Double?
@@ -49,7 +49,7 @@ struct Coord: Decodable {
     var lat: Double?
 }
 
-struct Weather {
+struct Weather: Decodable {
     var id: Int?
     var main: String?
     var description: String?

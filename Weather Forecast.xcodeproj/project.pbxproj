@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4456EEA826E22F9C0080920B /* MainForecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4456EEA726E22F9C0080920B /* MainForecast.swift */; };
 		449A031026E4CB11000F9AE4 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449A030F26E4CB11000F9AE4 /* Service.swift */; };
+		449A031326E4D529000F9AE4 /* ForecastViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449A031226E4D529000F9AE4 /* ForecastViewModel.swift */; };
 		44A7555E26E11AD000918E5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A7555D26E11AD000918E5E /* AppDelegate.swift */; };
 		44A7556026E11AD000918E5E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A7555F26E11AD000918E5E /* SceneDelegate.swift */; };
 		44A7556226E11AD000918E5E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A7556126E11AD000918E5E /* ContentView.swift */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		4456EEA726E22F9C0080920B /* MainForecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainForecast.swift; sourceTree = "<group>"; };
 		449A030F26E4CB11000F9AE4 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Service.swift; path = "Weather Forecast/Data/Service.swift"; sourceTree = SOURCE_ROOT; };
+		449A031226E4D529000F9AE4 /* ForecastViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastViewModel.swift; sourceTree = "<group>"; };
 		44A7555A26E11AD000918E5E /* Weather Forecast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Weather Forecast.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44A7555D26E11AD000918E5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44A7555F26E11AD000918E5E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 		44A7557226E11CD800918E5E /* View Model */ = {
 			isa = PBXGroup;
 			children = (
+				449A031226E4D529000F9AE4 /* ForecastViewModel.swift */,
 			);
 			path = "View Model";
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 				44A7555E26E11AD000918E5E /* AppDelegate.swift in Sources */,
 				44A7556026E11AD000918E5E /* SceneDelegate.swift in Sources */,
 				4456EEA826E22F9C0080920B /* MainForecast.swift in Sources */,
+				449A031326E4D529000F9AE4 /* ForecastViewModel.swift in Sources */,
 				44A7556226E11AD000918E5E /* ContentView.swift in Sources */,
 				44A7557826E11E6700918E5E /* BackSplash.swift in Sources */,
 				449A031026E4CB11000F9AE4 /* Service.swift in Sources */,
